@@ -41,6 +41,32 @@ function AnimatedRoutes() {
 }
 
 function App() {
+  useEffect(() => {
+    // Prevent right-click context menu on all images
+    const preventContextMenu = (e) => {
+      if (e.target.tagName === 'IMG') {
+        e.preventDefault();
+        return false;
+      }
+    };
+
+    // Prevent image dragging
+    const preventDragStart = (e) => {
+      if (e.target.tagName === 'IMG') {
+        e.preventDefault();
+        return false;
+      }
+    };
+
+    document.addEventListener('contextmenu', preventContextMenu);
+    document.addEventListener('dragstart', preventDragStart);
+
+    return () => {
+      document.removeEventListener('contextmenu', preventContextMenu);
+      document.removeEventListener('dragstart', preventDragStart);
+    };
+  }, []);
+
   return (
     <Router>
       <AnimatedRoutes />
