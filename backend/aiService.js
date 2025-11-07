@@ -47,7 +47,7 @@ Example style: "Ever wonder why Congress votes 95% pro-Israel regardless of part
       const fullTweet = `${cleanContent}
 
 aipacatlas.com
-CA:8kyVz8tG3SUADBXx7RtNmdLAqHzZbSLfVh1DhYFnpump
+CA:BVSMkyQtDLAFhnkoxDCEVBAG3wJb8EBL1JYFmMr7pump
 
 @NickJFuentes @TuckerCarlson @RealCandaceO`;
 
