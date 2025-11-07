@@ -46,8 +46,8 @@ Example style: "Ever wonder why Congress votes 95% pro-Israel regardless of part
       // Build the full tweet in the specific format
       const fullTweet = `${cleanContent}
 
-aipacatlast.com
-CA:TBA
+aipacatlas.com
+CA:8kyVz8tG3SUADBXx7RtNmdLAqHzZbSLfVh1DhYFnpump
 
 @NickJFuentes @TuckerCarlson @RealCandaceO`;
 
