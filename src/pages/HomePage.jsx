@@ -28,10 +28,10 @@ function HomePage() {
           <div className="main-title-container">
             <img
               src="/where-are-jew-text.png"
-              alt="WHERE ARE JEW?"
+              alt="AIPAC ATLAS"
               className="main-title-image"
             />
-            <AdjustableEye adjustMode={false} />
+            <AdjustableEye adjustMode={true} />
           </div>
         </Link>
         <p className="subtitle">
