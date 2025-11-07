@@ -17,8 +17,9 @@ const AnimatedEye = () => {
       const angle = Math.atan2(e.clientY - eyeCenterY, e.clientX - eyeCenterX);
 
       // MOVEMENT RANGE: Adjust these values to control how far the iris moves
-      const maxDistance = 5;     // Maximum pixels the iris can move (scaled for 82px eye size)
-      const sensitivity = 35;    // Movement sensitivity (increased for smoother, limited movement)
+      // Scaled proportionally for 82px eye (was 3px at 69px)
+      const maxDistance = 3.6;   // Maximum pixels the iris can move
+      const sensitivity = 30;    // Movement sensitivity
 
       const distance = Math.min(maxDistance, Math.hypot(e.clientX - eyeCenterX, e.clientY - eyeCenterY) / sensitivity);
 
