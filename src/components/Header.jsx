@@ -4,7 +4,7 @@ import congressData from '../data/congressData.json';
 import './Header.css';
 
 const Header = () => {
-  const contractAddress = "TBA";
+  const contractAddress = "HKT6SdF66m7oefmfQnEsX9yCMYZNF7EfvfVe477Rpump";
   const [copied, setCopied] = useState(false);
   const [isHovering, setIsHovering] = useState(false);
   const [countdown, setCountdown] = useState('');
