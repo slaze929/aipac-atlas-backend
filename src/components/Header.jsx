@@ -106,7 +106,7 @@ const Header = () => {
       </div>
       <div className="header-nav">
         <a
-          href="https://x.com"
+          href="https://x.com/WAJ_dotcom"
           target="_blank"
           rel="noopener noreferrer"
           className="x-link"
