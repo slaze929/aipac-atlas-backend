@@ -31,7 +31,7 @@ function HomePage() {
               alt="AIPAC ATLAS"
               className="main-title-image"
             />
-            <AdjustableEye adjustMode={true} />
+            <AdjustableEye adjustMode={false} />
           </div>
         </Link>
         <p className="subtitle">

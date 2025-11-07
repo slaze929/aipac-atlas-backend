@@ -11,7 +11,7 @@ const About = () => {
         <div className="about-text">
           <h2>About This Project</h2>
           <p>
-            Where Are Jew is a comprehensive transparency platform tracking AIPAC (American Israel Public Affairs Committee)
+            AIPAC Atlas is a comprehensive transparency platform tracking AIPAC (American Israel Public Affairs Committee)
             lobby influence, U.S. aid to Israel, defense contractor profits, and the financial connections between
             American taxpayers, politicians, and military funding.
           </p>
